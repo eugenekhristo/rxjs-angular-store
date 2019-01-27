@@ -1,0 +1,6 @@
+<app-songs-list
+  [list]="playlist$ | async"
+  (toggle)="onToggle($event)"
+>
+  Played
+</app-songs-list>
